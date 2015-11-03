@@ -15,6 +15,8 @@
 		63A20B681BA6BF9600425193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A20B661BA6BF9600425193 /* LaunchScreen.storyboard */; };
 		63A20B731BA6BF9600425193 /* GGArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A20B721BA6BF9600425193 /* GGArchiverTests.m */; };
 		63A20B7E1BA6BF9600425193 /* GGArchiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A20B7D1BA6BF9600425193 /* GGArchiverUITests.m */; };
+		63B4C3731BE84BE100A2BC26 /* GGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B4C3721BE84BE100A2BC26 /* GGCar.m */; };
+		63B4C3761BE84ED900A2BC26 /* GGArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B4C3751BE84ED900A2BC26 /* GGArchiver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		63A20B791BA6BF9600425193 /* GGArchiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGArchiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A20B7D1BA6BF9600425193 /* GGArchiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGArchiverUITests.m; sourceTree = "<group>"; };
 		63A20B7F1BA6BF9600425193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B4C3711BE84BE100A2BC26 /* GGCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCar.h; sourceTree = "<group>"; };
+		63B4C3721BE84BE100A2BC26 /* GGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCar.m; sourceTree = "<group>"; };
+		63B4C3741BE84ED900A2BC26 /* GGArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGArchiver.h; sourceTree = "<group>"; };
+		63B4C3751BE84ED900A2BC26 /* GGArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGArchiver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				63A20B661BA6BF9600425193 /* LaunchScreen.storyboard */,
 				63A20B691BA6BF9600425193 /* Info.plist */,
 				63A20B581BA6BF9600425193 /* Supporting Files */,
+				63B4C3711BE84BE100A2BC26 /* GGCar.h */,
+				63B4C3721BE84BE100A2BC26 /* GGCar.m */,
+				63B4C3741BE84ED900A2BC26 /* GGArchiver.h */,
+				63B4C3751BE84ED900A2BC26 /* GGArchiver.m */,
 			);
 			path = GGArchiver;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A20B601BA6BF9600425193 /* ViewController.m in Sources */,
+				63B4C3761BE84ED900A2BC26 /* GGArchiver.m in Sources */,
 				63A20B5D1BA6BF9600425193 /* AppDelegate.m in Sources */,
+				63B4C3731BE84BE100A2BC26 /* GGCar.m in Sources */,
 				63A20B5A1BA6BF9600425193 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				63A20B841BA6BF9600425193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A20B851BA6BF9600425193 /* Build configuration list for PBXNativeTarget "GGArchiverTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				63A20B871BA6BF9600425193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A20B881BA6BF9600425193 /* Build configuration list for PBXNativeTarget "GGArchiverUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				63A20B8A1BA6BF9600425193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
