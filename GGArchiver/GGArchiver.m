@@ -80,8 +80,10 @@ _Pragma("clang diagnostic pop") \
     for (NSString *propertyName in properNames) {
         // 创建指向get方法
         SEL getSel = NSSelectorFromString(propertyName);
-        
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
         NSString *propertyNameString = [NSString stringWithFormat:@"%@ - %@\n",propertyName,[self performSelector:getSel]];
+#pragma clang diagnostic pop
         [descriptionString appendString:propertyNameString];
     }
     return [descriptionString copy];
